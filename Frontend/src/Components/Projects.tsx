@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       title: "Portfolio Website",
       image: portfolioImage,
       tags: ["React", "Tailwind", "TypeScript"],
-      link: ""
+      link: "https://deji-obs-portfolio.vercel.app/"
     },
     {
       title: "E-commerce Application",
