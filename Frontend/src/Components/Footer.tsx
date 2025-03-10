@@ -6,7 +6,7 @@ import  myImage  from "../Images/myImage.png"
 const Footer: React.FC = () => {
   return (
     <footer className="bg-inherit text-black m-10 py-6">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <div className="flex items-center">
           <img src={myImage} alt="Logo" className="h-8 mr-2" />
           <span className="text-lg font-bold">Deji&#8482;</span>
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           <Link to="https://www.linkedin.com/in/ayodeji-obasan-gmnse-9096151b9/" className="text-black hover:text-gray-500"><Linkedin/></Link>
           <Link to="https://www.instagram.com/deji_obs/" className="text-black hover:text-gray-500"><Instagram/></Link>
         </div>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#about" className="text-black hover:text-gray-500">About</a>
           <a href="#projects" className="text-black hover:text-gray-500">Projects</a>
           <a href="#skills" className="text-black hover:text-gray-500">Tools</a>
