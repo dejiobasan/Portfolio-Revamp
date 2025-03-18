@@ -5,8 +5,8 @@ const About: React.FC = () => {
       <p className="mt-4 text-lg max-w-2xl mx-auto">
         I hold a First class (Honours) Bachelor’s Degree in
         Electrical/Electronics Engineering. Additionally, I am proficient in
-        HTML, CSS (Bootstrap), JavaScript, TypeScript, TailwindCSS, and Reactjs for frontend
-        development. Nodejs, Expressjs and Python for backend development. MongoDB, PostGRES for Database.
+        HTML, CSS (Bootstrap), JavaScript, TypeScript, TailwindCSS, and Reactjs for frontend web
+        development and React  Native for Mobile app development. Nodejs, Expressjs and Python for backend development. MongoDB, PostGRES for Database.
         I am a skilled full-stack developer and open to
         opportunities that would enable me work on diverse projects and support
         the vision of the company to deliver exceptional service without
