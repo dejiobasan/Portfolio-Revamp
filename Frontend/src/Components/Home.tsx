@@ -18,11 +18,15 @@ const Home: React.FC = () => {
       <h1 className="text-5xl font-bold">
         Hi, I am <span className="text-blue-500">&lt;Deji /&gt;</span>
       </h1>
-      <p className="mt-4 text-lg">
+      <motion.p
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="mt-4 text-lg"
+      >
         {" "}
         I'm a goal-driven Software Engineer with years of experience building
         applications and in my spare time I watch alot of Anime.
-      </p>
+      </motion.p>
       <span className="space-x-4">
         <button
           className="mt-6 px-6 py-3 bg-blue-500 rounded-lg text-white text-lg font-semibold hover:bg-blue-600 transition"
