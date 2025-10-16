@@ -5,6 +5,7 @@ const Skills: React.FC = () => {
     { name: "CSS", icon: "devicon-css3-plain" },
     { name: "JavaScript", icon: "devicon-javascript-plain" },
     { name: "React", icon: "devicon-react-original" },
+    {name: "Nextjs", icon: "devicon-nextjs-plain-wordmark"},
     { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain" },
     { name: "TypeScript", icon: "devicon-typescript-plain" },
     { name: "NodeJS", icon: "devicon-nodejs-plain-wordmark" },
