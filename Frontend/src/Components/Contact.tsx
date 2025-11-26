@@ -17,37 +17,37 @@ const Contact: React.FC = () => {
 
 
   return (
-    <section id="contact" className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+    <section id="contact" className="max-w-lg mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md transition-colors duration-300">
       <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label className="block text-gray-700">Name</label>
+          <label className="block text-gray-700 dark:text-gray-300">Name</label>
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full p-2 border rounded mt-1"
+            className="w-full p-2 border rounded mt-1 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             required
             placeholder="Enter your name"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
+          <label className="block text-gray-700 dark:text-gray-300">Email</label>
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-2 border rounded mt-1"
+            className="w-full p-2 border rounded mt-1 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
             required
             placeholder="Enter your Email"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700">Message</label>
+          <label className="block text-gray-700 dark:text-gray-300">Message</label>
           <textarea
             name="message"
             value={formData.message}

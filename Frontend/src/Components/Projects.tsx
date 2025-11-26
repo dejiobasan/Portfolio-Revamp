@@ -51,13 +51,13 @@ const Projects: React.FC = () => {
       <h2 className="text-4xl font-bold">My Projects</h2>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
-          <div key={project.title} className="bg-white text-black rounded-lg shadow-lg overflow-hidden">
+          <div key={project.title} className="bg-white dark:bg-gray-800 text-black dark:text-white rounded-lg shadow-lg overflow-hidden transition-colors duration-300">
             <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{project.title}</h3>
               <div className="mt-2 flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
-                  <span key={tag} className="bg-gray-200 text-gray-700 px-3 py-1 text-sm rounded-md">{tag}</span>
+                  <span key={tag} className="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 px-3 py-1 text-sm rounded-md">{tag}</span>
                 ))}
               </div>
               <Link 
