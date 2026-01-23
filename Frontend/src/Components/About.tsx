@@ -7,7 +7,8 @@ const About: React.FC = () => {
         Electrical/Electronics Engineering. Additionally, I am proficient in
         HTML, CSS (Bootstrap), JavaScript, TypeScript, TailwindCSS, and Reactjs for frontend web
         development and React  Native for Mobile app development. Nodejs, Expressjs and Python for backend development. MongoDB, PostGRES for Database.
-        I am a skilled full-stack developer and open to
+        I currently work as a Software Engineer at a reputed company. I am also
+        passionate about problem solving and I am always looking for
         opportunities that would enable me work on diverse projects and support
         the vision of the company to deliver exceptional service without
         compromising standards. I'm confident, hardworking and very open to
