@@ -5,13 +5,15 @@ const Skills: React.FC = () => {
     { name: "CSS", icon: "devicon-css3-plain" },
     { name: "JavaScript", icon: "devicon-javascript-plain" },
     { name: "React", icon: "devicon-react-original" },
-    {name: "Nextjs", icon: "devicon-nextjs-plain-wordmark"},
+    { name: "Nextjs", icon: "devicon-nextjs-plain-wordmark" },
     { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain" },
     { name: "TypeScript", icon: "devicon-typescript-plain" },
     { name: "NodeJS", icon: "devicon-nodejs-plain-wordmark" },
     { name: "MongoDB", icon: "devicon-mongodb-plain-wordmark" },
     { name: "PostGRES", icon: "devicon-postgresql-plain-wordmark" },
     { name: "Python", icon: "devicon-python-plain" },
+    { name: "Git", icon: "devicon-git-plain" },
+    { name: "Nestjs", icon: "devicon-nestjs-original" },
   ];
 
   return (
@@ -21,7 +23,7 @@ const Skills: React.FC = () => {
         initial={{ x: 1000 }}
         animate={{ x: -1000 }}
         transition={{ duration: 10, repeat: Infinity }}
-        className="mt-8 flex flex-wrap justify-center gap-8"
+        className="mt-8 flex justify-center gap-8"
       >
         {skills.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center">

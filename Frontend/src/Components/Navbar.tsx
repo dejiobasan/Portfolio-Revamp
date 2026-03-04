@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-800 dark:bg-gray-900 text-white p-4 fixed w-full top-0 shadow-md z-50 transition-colors duration-300">
       <div className="container mx-auto flex justify-between items-center">
       <div className="flex items-center">
-          <img src={myImage} alt="Logo" className="h-8 w-8 mr-2" />
+          <img src={myImage} alt="Logo" className="h-8 w-8 mr-2 rounded-full border border-blue-500" />
           <Link to="/" className="text-2xl font-bold">Deji&#8482;</Link>
         </div>
         <button className="md:hidden" onClick={toggleMenu}>

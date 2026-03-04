@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       className="h-screen flex flex-col items-center justify-center text-center"
     >
       <h1 className="text-5xl font-bold">
-        Hi, I am <span className="text-blue-500 dark:text-blue-400">&lt;Deji /&gt;</span>
+        Hi, I am <span className="text-blue-500 dark:text-blue-400 animate-pulse">&lt;Deji /&gt;</span>
       </h1>
       <motion.p
         initial={{ opacity: 0, scale: 0.5 }}
