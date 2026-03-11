@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import cvUrl from "../files/SoftwareEngineerCV.pdf";
 
 const Home: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -39,6 +40,12 @@ const Home: React.FC = () => {
           onClick={() => scrollToSection("contact")}
         >
           Get In Touch
+        </button>
+        <button
+          className="mt-6 px-6 py-3 border bg-inherit rounded-lg text-blue-500 dark:text-blue-400 dark:border-blue-400 text-lg font-semibold hover:bg-blue-600 hover:text-white transition"
+          onClick={() => window.open(cvUrl, "_blank")}
+        >
+          View My Resume
         </button>
       </span>
     </motion.section>
