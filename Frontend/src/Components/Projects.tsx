@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="py-20 text-center">
-      <h2 className="text-4xl font-bold mb-12">
+      <h2 className="md:text-4xl text-2xl font-bold mb-12">
         Frontend & Fullstack Projects
       </h2>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -134,7 +134,9 @@ const Projects: React.FC = () => {
         ))}
       </div>
 
-      <h2 className="text-4xl font-bold mt-20 mb-12">Backend Projects</h2>
+      <h2 className="md:text-4xl text-2xl font-bold mt-20 mb-12">
+        Backend Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {backendProjects.map((project) => (
           <div

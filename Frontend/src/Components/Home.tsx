@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       transition={{ duration: 0.8 }}
       className="h-screen flex flex-col items-center justify-center text-center"
     >
-      <h1 className="text-5xl font-bold">
+      <h1 className="md:text-5xl text-3xl font-bold">
         Hi, I am{" "}
         <span className="text-blue-500 dark:text-blue-400 animate-pulse">
           &lt;Deji /&gt;
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       <motion.p
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="mt-4 text-lg"
+        className="mt-4 text-lg text-justify"
       >
         {" "}
         I'm a goal-driven Software Engineer with years of experience building
@@ -44,15 +44,15 @@ const Home: React.FC = () => {
         >
           Get In Touch
         </button>
-        <a
-          className="mt-6 px-6 py-3 border bg-inherit rounded-lg text-blue-500 dark:text-blue-400 dark:border-blue-400 text-lg font-semibold hover:bg-blue-600 hover:text-white transition"
-          href={cvUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View My Resume
-        </a>
       </span>
+      <a
+        className="mt-6 px-6 py-3 border bg-inherit rounded-lg text-blue-500 dark:text-blue-400 dark:border-blue-400 text-lg font-semibold hover:bg-blue-600 hover:text-white transition"
+        href={cvUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View My Resume
+      </a>
     </motion.section>
   );
 };

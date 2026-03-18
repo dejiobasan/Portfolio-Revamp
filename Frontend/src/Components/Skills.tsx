@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
 
   return (
     <section id="skills" className="py-20 text-center">
-      <h2 className="text-4xl font-bold">My Stack</h2>
+      <h2 className="md:text-4xl text-2xl font-bold">My Stack</h2>
       <motion.div
         initial={{ x: 1000 }}
         animate={{ x: -1000 }}
