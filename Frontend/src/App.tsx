@@ -11,9 +11,9 @@ import { ThemeProvider } from "./Context/ThemeContext";
 function App() {
   return (
     <ThemeProvider>
-      <div className="bg-neutral-100 text-black min-h-screen font-serif dark:bg-gray-900 dark:text-white transition-colors duration-300">
+      <div className="flex flex-col min-h-screen bg-neutral-100 text-black font-serif dark:bg-gray-900 dark:text-white transition-colors duration-300">
         <Navbar />
-        <main className="container mx-auto px-4 py-10">
+        <main className="flex-grow container mx-auto px-4 py-10">
           <Home />
           <About />
           <Skills />
